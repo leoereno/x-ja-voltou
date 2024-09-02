@@ -8,8 +8,9 @@
 main{
     text-align: center;
 }
-.title{
-    
+
+#contador-dias{
+    color: red;
 }
 .footer{
     position: absolute;
