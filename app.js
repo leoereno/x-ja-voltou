@@ -19,9 +19,7 @@ const reload = () =>{
 }
 
 function isSiteOnline(url,callback) {
-    // try to load favicon
     var timer = setTimeout(function(){
-        // timeout after 5 seconds
         callback(false);
     },5000)
 
